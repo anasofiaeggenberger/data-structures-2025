@@ -34,5 +34,5 @@ queue.enqueue('F')
 print(queue)
 queue.enqueue('G')
 print(queue)
-queue.enqueue('H') # BUG: enqueue() overwrites the Front element
+queue.enqueue('H')
 print(queue)

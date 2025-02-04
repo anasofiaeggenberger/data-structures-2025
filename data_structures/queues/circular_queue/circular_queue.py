@@ -14,7 +14,7 @@ class CircularQueue:
         return f'Queue: {self.elements} | F: {self.front} | R: {self.rear}'
 
     def enqueue(self, val: str) -> None:
-        if self.front == 0 and self.rear == self.max - 1:
+        if (self.front == 0 and self.rear == self.max - 1) or (self.rear == self.front - 1):
             print('Queue overflow...')
             return None 
     
