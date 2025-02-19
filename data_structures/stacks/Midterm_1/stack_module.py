@@ -36,3 +36,10 @@ class Stack:
             return None
 
         return self.elements[self.top]
+    
+        def search(self, key: str) -> int:
+            for i in range(self.top, -1, -1):
+                if self.elements[i] == key:
+                    return self.top - i  
+        return -1
+

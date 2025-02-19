@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath("Estructura-datos-2025/data_structures/stacks"))
 
 from stack_module import Stack
 
-N = 13010000  
+N = 1500000  
 
 sizes = [N, 2*N, 3*N, 4*N, 5*N]
 stacks = {}
